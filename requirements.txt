@@ -1,0 +1,17 @@
+git+https://github.com/huggingface/transformers.git@v4.57.6
+git+https://github.com/huggingface/accelerate.git
+git+https://github.com/huggingface/diffusers.git
+git+https://github.com/huggingface/peft.git
+huggingface_hub
+sentencepiece
+torchvision
+matplotlib
+accelerate
+easydict
+kernels
+addict
+gradio==6.9.0
+einops
+spaces
+torch==2.11.0
+numpy
