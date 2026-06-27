@@ -4,6 +4,8 @@ DeepSeek-OCR-experimental is an advanced, multi-purpose visual document intellig
 
 The application offers multiple structured pipelines including layout-preserving document-to-markdown conversion, structural figure parsing, and open-ended textual object localization. By programmatically decoding predicted coordinate bounds (`<|det|>` anchors), the system maps normalized values back to pixel space and paints dynamic bounding boxes directly onto the target document canvas. It is fully accelerated on local hardware using custom attention kernels and served via an elegant, Steel Blue Gradio interface.
 
+<img width="1730" height="1417" alt="image" src="https://github.com/user-attachments/assets/614a9a23-70e1-4002-9435-f8bd9e2bcb84" />
+
 ### **Key Features**
 
 * **Structural Document Parsing:** Transitions seamlessly from raw document pixels into structure-aware Markdown strings, cleanly isolating mathematical notation, formatting, and paragraphs.
